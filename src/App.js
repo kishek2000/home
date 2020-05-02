@@ -17,10 +17,66 @@ function App() {
           alt="my dp"
         />
         <div className="header-item-row">
-          <div className="header-item">ABOUT</div>
-          <div className="header-item">PROJECTS</div>
-          <div className="header-item">QUALIFICATIONS</div>
-          <div className="header-item">CONTACT</div>
+          <div
+            className="header-item"
+            onClick={() => {
+              window.scroll({
+                top: 0,
+                left: 1000,
+                behavior: "smooth",
+              });
+            }}
+          >
+            TOP
+          </div>
+          <div
+            className="header-item"
+            onClick={() => {
+              window.scroll({
+                top: window.innerHeight * 1,
+                left: 1000,
+                behavior: "smooth",
+              });
+            }}
+          >
+            ABOUT
+          </div>
+          <div
+            className="header-item"
+            onClick={() => {
+              window.scroll({
+                top: window.innerHeight * 2,
+                left: 1000,
+                behavior: "smooth",
+              });
+            }}
+          >
+            PROJECTS
+          </div>
+          <div
+            className="header-item"
+            onClick={() => {
+              window.scroll({
+                top: window.innerHeight * 3,
+                left: 1000,
+                behavior: "smooth",
+              });
+            }}
+          >
+            QUALIFICATIONS
+          </div>
+          <div
+            className="header-item"
+            onClick={() => {
+              window.scroll({
+                top: window.innerHeight * 4,
+                left: 1000,
+                behavior: "smooth",
+              });
+            }}
+          >
+            CONTACT
+          </div>
         </div>
       </section>
       <section className="App-body">
@@ -39,7 +95,9 @@ function App() {
         </div>
         <div className="body-contents">
           <div className="body-header">
-            <div className="body-title">PROJECTS</div>
+            <div className="body-title" style={{ "text-align": "right" }}>
+              PROJECTS
+            </div>
           </div>
           <div className="body-menu">
             <MenuItem title="myHome" src="" />
@@ -59,7 +117,9 @@ function App() {
           <div className="body-title">QUALIFICATIONS</div>
         </div>
         <div className="body-contact">
-          <div className="body-title">CONTACT</div>
+          <div className="body-title" style={{ "text-align": "right" }}>
+            CONTACT
+          </div>
         </div>
       </section>
     </div>
