@@ -13,7 +13,7 @@ function App() {
         </div>
         <img
           className="App-header-photo"
-          src="https://lh3.googleusercontent.com/j0DyTHIwRpfdDLMvFtcV1LFG8thQ98eeU89qD6Q2A4xgfnSn-3BmGNtOMlohlJx_1y3kSyiTEEUvMwF4q25793N1QUj-xNEwa4Phl_4uLewEAJbehXOET8bzOAnp69G01bLAoAb7YCeMtcCrrQ8CcZ2P9cz-FV9GIOZ7y4sWIHOPZuMOjjHNJ4maeoUV7vJakn7H8BMAu8VqNuO7KvpIj52sCjslOonKyeqQuitn5ETI7s1cA4Gg81vTpbJuP5KwYf12K40i9SSrmiLLS6e_AAEYtpy2feIQ64T7gWkUOIlbf3RpOx1sG9c-VzYIybLAeE2iWUAA_JjS1LbcTJgxwk7ar3WCjs92y1mudb0wQO4G8nNYnHUGrJNZ4aJyK69M1H79_tEP38TOXjOZtM22eZuRV7CF2ECKibVmlEi9HBHuqgJnHCzEiB2GK4mLEtH5aYnoafNt6mlzWK6ghXwbYngOSEYpb-adfjwLG6lblWxMdx1D-IdcmKnhoHcJcFDZTbyRT7AkVEHL4H7yA29j0-ow-TS85-DRpCwzJ7ND_Ss4k1cyvvy62Blz7XEn9WKvQAfDiiZ2PmwdQlsPWA43g_Q4hPhjQ_GlWoh2klN5cqIrfX0C3tcDeod3Uvv1dDz9jsN9JXdx5-LgjpH1A5JV2NwZmds-zfok-1dlUzZPPbyPWlmQOhMmwVVejccav4o=w1007-h1342-no"
+          src="https://ik.imagekit.io/m3aqkfw4pj/IMG_2057_lpkgmrUuj.jpg"
           alt="my dp"
         />
         <div className="header-item-row">
