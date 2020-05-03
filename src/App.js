@@ -16,7 +16,7 @@ function App() {
           src="https://ik.imagekit.io/m3aqkfw4pj/IMG_2057_lpkgmrUuj.jpg"
           alt="my dp"
         />
-        <div className="header-item-row">
+        <div className="header-item-col">
           <div
             className="header-item"
             onClick={() => {
