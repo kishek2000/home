@@ -2,8 +2,143 @@ import React from "react";
 import "./App.css";
 import aboutBg from "./static/about.jpeg";
 import contentsBg from "./static/project.jpeg";
+import qualificationsBg from "./static/qualifications.jpeg";
+
+import reactImg from "./static/reactImg.png";
+import jsImg from "./static/jsImg.png";
+import htmlImg from "./static/htmlImg.png";
+import cssImg from "./static/cssImg.png";
+
+import cImg from "./static/cImg.png";
+import pythonImg from "./static/pythonImg.png";
+
+import finalcutImg from "./static/finalcutImg.png";
+import auditionImg from "./static/auditionImg.png";
+import logicImg from "./static/logicImg.png";
+
+import figmaImg from "./static/figmaImg.png";
+import sketchImg from "./static/sketchImg.png";
+
+import nodeImg from "./static/nodeImg.png";
+import expressImg from "./static/expressImg.png";
+import flaskImg from "./static/flaskImg.png";
+import djangoImg from "./static/djangoImg.png";
 
 function App() {
+  const productionSkills = [
+    {
+      langs: [
+        {
+          title: "Logic Pro X",
+          imgSrc: logicImg,
+        },
+        {
+          title: "Final Cut Pro X",
+          imgSrc: finalcutImg,
+        },
+        {
+          title: "Adobe Audition",
+          imgSrc: auditionImg,
+        },
+      ],
+    },
+  ];
+  const designSkills = [
+    {
+      langs: [
+        {
+          title: "Figma",
+          imgSrc: figmaImg,
+        },
+        {
+          title: "Sketch",
+          imgSrc: sketchImg,
+        },
+      ],
+    },
+  ];
+  const devopSkills = [
+    {
+      langs: [
+        {
+          title: "Github",
+          imgSrc: cImg,
+        },
+        {
+          title: "Gitlab",
+          imgSrc: pythonImg,
+        },
+      ],
+    },
+  ];
+  const programmingSkills = [
+    {
+      langs: [
+        {
+          title: "C",
+          imgSrc: cImg,
+        },
+        {
+          title: "Python 3",
+          imgSrc: pythonImg,
+        },
+        {
+          title: "Javascript",
+          imgSrc: jsImg,
+        },
+      ],
+    },
+  ];
+
+  const frontendSkills = [
+    {
+      langs: [
+        {
+          title: "React",
+          imgSrc: reactImg,
+        },
+        {
+          title: "Javascript",
+          imgSrc: jsImg,
+        },
+        {
+          title: "HTML",
+          imgSrc: htmlImg,
+        },
+        {
+          title: "CSS",
+          imgSrc: cssImg,
+        },
+      ],
+    },
+  ];
+  const backendSkills = [
+    {
+      langs: [
+        {
+          title: "Django",
+          imgSrc: djangoImg,
+        },
+        {
+          title: "Flask",
+          imgSrc: flaskImg,
+        },
+        {
+          title: "Node",
+          imgSrc: nodeImg,
+        },
+        {
+          title: "Express",
+          imgSrc: expressImg,
+        },
+        {
+          title: "Javascript",
+          imgSrc: jsImg,
+        },
+      ],
+    },
+  ];
+
   return (
     <div className="App">
       <section className="App-header">
@@ -72,7 +207,7 @@ function App() {
       <section className="App-body">
         <div className="body-about">
           <div className="body-about-img-wrapper">
-            <img src={aboutBg} alt="about bg" className="body-about-img" />
+            <img src={aboutBg} className="body-about-img" alt="about" />
           </div>
           <div className="body-about-description">
             <div className="body-title">ABOUT</div>
@@ -133,11 +268,35 @@ function App() {
           </div>
         </div>
         <div className="body-qualifications">
-          <div className="body-title">QUALIFICATIONS</div>
+          <div className="body-qualifications-img-wrapper">
+            <img
+              src={qualificationsBg}
+              alt="qualifications bg"
+              className="body-qualifications-img"
+            />
+          </div>
+          <div className="body-header">
+            <div className="body-title">QUALIFICATIONS</div>
+            <div className="description-text">
+              From the beginning of 2019, I began my path of learning and
+              implementing software technologies. Today, these are the skills I
+              have currently acquired, from a range of{" "}
+              <strong>basic to medium proficiency</strong>.
+            </div>
+          </div>
           <div className="body-qualifications-row">
-            <div className="body-qualifications-subtitle">FRONTEND</div>
-            <div className="body-qualifications-subtitle">BACKEND</div>
-            <div className="body-qualifications-subtitle">FRONTEND</div>
+            <QualificationItem title="Frontend" skills={frontendSkills} />
+            <QualificationItem title="Backend" skills={backendSkills} />
+            <QualificationItem title="DevOps" skills={devopSkills} />
+            <QualificationItem
+              title="Design and Prototype"
+              skills={designSkills}
+            />
+            <QualificationItem
+              title="Programming Languages"
+              skills={programmingSkills}
+            />
+            <QualificationItem title="Production" skills={productionSkills} />
           </div>
         </div>
       </section>
@@ -146,6 +305,37 @@ function App() {
 }
 
 export default App;
+
+function QualificationItem(props) {
+  return (
+    <div className="body-qualifications-item">
+      <div className="body-qualifications-main-title">{props.title}</div>
+      <div className="body-qualifications-langs-grid">
+        {props.skills.map((proficiency, index) => (
+          <>
+            {/* <div className="body-qualifications-proficiency-title">
+              {proficiency.title}
+            </div> */}
+            <div className="body-qualifications-proficiency-langs">
+              {proficiency.langs.map((language, num) => (
+                <div className="body-qualifications-proficiency-item">
+                  <img
+                    src={language.imgSrc}
+                    alt={`${language.title} icon`}
+                    className="body-qualifications-lang-img"
+                  />
+                  <div className="body-qualifications-lang-title">
+                    {language.title}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 function MenuItem(props) {
   return (
