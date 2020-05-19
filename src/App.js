@@ -278,10 +278,12 @@ function App() {
           <div className="body-header">
             <div className="body-title">QUALIFICATIONS</div>
             <div className="description-text">
-              From the beginning of 2019, I began my path of learning and
+              Over the last few years, I've pursued a path of learning and
               implementing software technologies. Today, these are the skills I
               have currently acquired, from a range of{" "}
-              <strong>basic to medium proficiency</strong>.
+              <strong>basic to medium proficiency</strong>. I am keen to
+              continue deepening my skills in each of these, and learning new
+              technologies future solutions!
             </div>
           </div>
           <div className="body-qualifications-row">

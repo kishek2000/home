@@ -310,7 +310,6 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* justify-content: center; */
   align-items: center;
   z-index: 2;
   margin-left: 175px;
@@ -337,6 +336,7 @@
   color: black;
   background: white;
   margin-right: 15px;
+  box-shadow: 1px 1px 10px black;
   border-radius: 12px;
 }
 
@@ -365,7 +365,6 @@
   align-items: center;
   height: 25px;
   margin-right: 15px;
-  /* box-shadow: 1px 1px 10px rgb(164, 164, 164); */
   border-radius: 12px;
   padding: 10px 15px 10px 0px;
   background: rgb(255, 255, 255);
