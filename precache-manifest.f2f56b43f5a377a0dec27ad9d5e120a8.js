@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2d000e7b5f4cde90851ccde51484157f",
+    "revision": "739a05082adca2feabb8e2f5a3d287f0",
     "url": "/home/index.html"
   },
   {
-    "revision": "4972af6602e39764a2e0",
-    "url": "/home/static/css/main.0c30a599.chunk.css"
+    "revision": "f9fa237b7f1ba1041088",
+    "url": "/home/static/css/main.d7710b17.chunk.css"
   },
   {
-    "revision": "d4682973c44abead6bca",
-    "url": "/home/static/js/2.b6b7d18f.chunk.js"
+    "revision": "4200e039f8fbb3baf521",
+    "url": "/home/static/js/2.c60c50a0.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/home/static/js/2.b6b7d18f.chunk.js.LICENSE.txt"
+    "url": "/home/static/js/2.c60c50a0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4972af6602e39764a2e0",
-    "url": "/home/static/js/main.0f705a64.chunk.js"
+    "revision": "f9fa237b7f1ba1041088",
+    "url": "/home/static/js/main.2a25b087.chunk.js"
   },
   {
     "revision": "4b01274295bad03d6241",
@@ -44,6 +44,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/media/expressImg.98ff4822.png"
   },
   {
+    "revision": "70b5c683e0d25e4cd05a15ec6060386e",
+    "url": "/home/static/media/facebookImg.70b5c683.png"
+  },
+  {
     "revision": "f7144ffec12555b518e86635b91e9c02",
     "url": "/home/static/media/figmaImg.f7144ffe.png"
   },
@@ -54,6 +58,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b754e3f371f462b0413227305a6014d9",
     "url": "/home/static/media/flaskImg.b754e3f3.png"
+  },
+  {
+    "revision": "3e54ed15b9cd877c5223f5ecf64579df",
+    "url": "/home/static/media/gitImg.3e54ed15.png"
+  },
+  {
+    "revision": "d8dd9f3a3a1275356f9e1428b144e99f",
+    "url": "/home/static/media/gitlabImg.d8dd9f3a.png"
+  },
+  {
+    "revision": "baadda60ace7fd1cef89f187a46fadce",
+    "url": "/home/static/media/gmailImg.baadda60.png"
   },
   {
     "revision": "bcbb994b792ccce1140828088f227628",
