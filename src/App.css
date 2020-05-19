@@ -1,49 +1,47 @@
-@media screen and (min-width: 2048px) {
-  .body-big-title {
-    font-size: 120px;
-  }
+.body-big-title {
+  font-size: 120px;
+}
 
-  .body-title {
-    font-size: 40px;
-  }
+.body-title {
+  font-size: 40px;
+}
 
-  .description-text {
-    margin-top: 30px;
-    line-height: 2em;
-    width: 1200px;
-    font-size: 24px;
-  }
+.description-text {
+  margin-top: 30px;
+  line-height: 2em;
+  width: 1200px;
+  font-size: 24px;
+}
 
-  .App-header-text {
-    margin-right: 150px;
-  }
+.App-header-text {
+  margin-right: 150px;
+}
 
-  .header-description-text {
-    margin-top: 50px;
-    font-size: 35px;
-  }
+.header-description-text {
+  margin-top: 50px;
+  font-size: 35px;
+}
 
-  .App-header-photo {
-    width: 600px;
-    height: 800px;
-  }
+.App-header-photo {
+  width: 600px;
+  height: 800px;
+}
 
-  .header-item-col {
-    right: 50px;
-  }
+.header-item-col {
+  right: 50px;
+}
 
-  .header-item {
-    font-size: 15px;
-  }
+.header-item {
+  font-size: 15px;
+}
 
-  .menu-item {
-    font-size: 28px;
-    border-radius: 8px;
-    width: 500px;
-    min-height: 110px;
-    margin-top: 25px;
-    padding: 25px 0px 25px 50px;
-  }
+.menu-item {
+  font-size: 28px;
+  border-radius: 8px;
+  width: 500px;
+  min-height: 110px;
+  margin-top: 25px;
+  padding: 25px 0px 25px 50px;
 }
 
 .App {
@@ -97,13 +95,12 @@
 .header-item {
   padding: 15px 25px;
   text-align: right;
-  font-family: "Roboto Slab";
+  font-family: "Work Sans";
   font-weight: 400;
   cursor: pointer;
 }
 
 .header-item:hover {
-  font-family: "Roboto Slab";
   font-weight: 600;
 }
 
@@ -159,7 +156,7 @@
 
 .body-big-title {
   text-align: left;
-  font-family: "Roboto Slab";
+  font-family: "Work Sans";
   line-height: 0.8em;
 }
 
@@ -181,6 +178,7 @@
 .header-description-text {
   font-family: "Roboto Slab";
   font-weight: 200;
+  margin-left: 10px;
 }
 
 .body-contents {
@@ -214,7 +212,7 @@
 }
 
 .body-title {
-  font-family: "Roboto Slab";
+  font-family: "Work Sans";
   font-weight: 800;
   color: inherit;
   text-align: left;
@@ -236,7 +234,8 @@
 }
 
 .menu-item-title {
-  font-family: "Roboto Slab";
+  font-family: "Work Sans";
+  font-weight: 600;
   margin-right: 30px;
 }
 
@@ -321,9 +320,9 @@
 }
 
 .body-qualifications-main-title {
+  font-family: "Work Sans";
   line-height: 2em;
   font-size: 18px;
-  font-family: "Roboto Slab";
   text-transform: uppercase;
   font-weight: 900;
 }
@@ -372,8 +371,8 @@
 }
 
 .body-qualifications-lang-title {
+  font-family: "Work Sans";
   font-size: 14px;
-  font-family: "Roboto Slab";
   line-height: 2em;
   font-weight: 500;
   text-transform: uppercase;
