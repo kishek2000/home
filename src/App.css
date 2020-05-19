@@ -27,34 +27,26 @@
   height: 800px;
 }
 
-.header-item-col {
-  right: 50px;
-}
-
-.header-item {
-  font-size: 15px;
-}
-
 .menu-item {
   font-size: 28px;
   border-radius: 8px;
   width: 500px;
-  min-height: 110px;
   margin-top: 25px;
-  padding: 25px 0px 25px 50px;
+  padding: 15px 30px;
 }
 
 .App {
   text-align: center;
   background-color: #ffffff;
+  position: relative;
 }
 
 .App-header {
+  position: relative;
   height: 100vh;
   display: flex;
   flex-direction: row;
   text-align: left;
-  position: relative;
   justify-content: center;
 }
 
@@ -129,7 +121,7 @@
   flex-direction: column;
   margin-left: 175px;
   margin-right: 325px;
-  height: 500px;
+  height: 680px;
   justify-content: space-between;
   color: black;
 }
@@ -230,48 +222,54 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* width: 100%; */
 }
 
 .menu-item-title {
   font-family: "Work Sans";
-  font-weight: 600;
-  margin-right: 30px;
+  font-weight: 900;
+  margin-right: 15px;
+  padding: 0px 10px 0px 0px;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.menu-item-role {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 12px;
+  width: 300px;
+  text-align: right;
 }
 
 .menu-item-status {
-  font-family: "Roboto Slab";
+  font-family: "Work Sans";
   font-weight: bold;
   font-size: 12px;
   padding: 3px 7px;
-  text-align: center;
-  background-color: rgb(129, 110, 237);
+  text-align: left;
   border-radius: 12px;
   color: white;
 }
 
-.menu-item-description,
-.menu-item-breakdown,
-.menu-item-demo {
-  font-family: "Roboto Slab";
-  font-size: 16px;
-}
-
 .menu-item-description {
+  font-family: "Work Sans";
+  font-size: 14px;
   font-weight: 400;
   margin-top: 10px;
 }
 
 .menu-item-breakdown {
-  font-weight: 300;
-  margin-top: 20px;
+  font-family: "Work Sans";
+  font-size: 14px;
+  font-weight: 400;
   line-height: 2;
-  width: 80%;
+  margin-top: 10px;
 }
 
 .menu-item-demo {
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 600;
+  font-family: "Work Sans";
+  font-size: 14px;
   margin-top: 20px;
   text-transform: uppercase;
   cursor: pointer;
@@ -322,7 +320,7 @@
 .body-qualifications-main-title {
   font-family: "Work Sans";
   line-height: 2em;
-  font-size: 18px;
+  font-size: 19px;
   text-transform: uppercase;
   font-weight: 900;
 }
@@ -372,8 +370,57 @@
 
 .body-qualifications-lang-title {
   font-family: "Work Sans";
-  font-size: 14px;
+  font-size: 15px;
   line-height: 2em;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+.kishek {
+  position: fixed;
+  top: 10px;
+  left: 25px;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 900;
+  z-index: 5;
+  color: black;
+}
+
+.socials {
+  position: fixed;
+  top: 50%;
+  right: 0px;
+  transform: translate(0%, -50%);
+  z-index: 4;
+}
+
+.socials-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: white;
+  padding: 10px 5px;
+  border-radius: 12px 0px 0px 12px;
+}
+
+.socials-img-wrapper {
+  width: 40px;
+  height: 40px;
+}
+
+.socials-img {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-top: 3px;
+  padding: 2px;
+  box-shadow: 1px 1px 8px rgb(229, 229, 229);
+}
+
+.socials-img:hover {
+  width: 30px;
+  margin-top: 0px;
+  height: 30px;
 }
