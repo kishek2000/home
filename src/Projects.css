@@ -1,0 +1,257 @@
+@media only screen and (max-width: 2560px) {
+  * {
+    transition: 0s;
+  }
+
+  .body-contents-img {
+    height: 70vh;
+  }
+  .body-header {
+    margin-left: 175px;
+  }
+
+  .body-menu {
+    margin-left: 175px;
+    height: 700px;
+    width: 600px;
+  }
+
+  .menu-item {
+    border-radius: 12px;
+    width: 600px;
+    padding: 35px 50px;
+  }
+
+  .menu-item-title {
+    margin-right: 15px;
+    padding: 0px 10px 0px 0px;
+    font-size: 20px;
+  }
+  .menu-item-role {
+    font-size: 12px;
+    width: 300px;
+  }
+  .menu-item-status {
+    font-size: 12px;
+    padding: 3px 7px;
+    border-radius: 12px;
+  }
+  .menu-item-description {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .menu-item-breakdown {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: 10px;
+  }
+  .menu-item-demo {
+    font-size: 14px;
+    margin-top: 20px;
+    transition: 0s;
+  }
+}
+
+@media screen and (max-width: 2100px) {
+  * {
+    transition: 0s;
+  }
+
+  .body-menu {
+    margin-left: 175px;
+    height: 600px;
+    width: 500px;
+  }
+
+  .menu-item {
+    border-radius: 10px;
+    width: 500px;
+    padding: 25px 40px;
+  }
+
+  .body-contents-img {
+    height: 60vh;
+  }
+  .body-header {
+    margin-left: 175px;
+  }
+
+  .menu-item-title {
+    margin-right: 17.5px;
+    padding: 0px 10px 0px 0px;
+    font-size: 18px;
+  }
+  .menu-item-role {
+    font-size: 10px;
+    width: 300px;
+  }
+  .menu-item-status {
+    font-size: 12px;
+    padding: 3px 7px;
+    border-radius: 12px;
+  }
+  .menu-item-description {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .menu-item-breakdown {
+    font-size: 12px;
+    line-height: 1.7;
+    margin-top: 10px;
+  }
+  .menu-item-demo {
+    font-size: 12px;
+    margin-top: 17px;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  * {
+    transition: 0s;
+  }
+
+  .body-header {
+    margin-left: 175px;
+  }
+
+  .body-menu {
+    margin-left: 175px;
+    height: 500px;
+    width: 500px;
+  }
+
+  .menu-item {
+    border-radius: 10px;
+    width: 450px;
+    padding: 17.5px 35px;
+  }
+
+  .menu-item-title {
+    margin-right: 15px;
+    padding: 0px 10px 0px 0px;
+    font-size: 14px;
+  }
+
+  .menu-item-role {
+    font-size: 8px;
+    width: 300px;
+  }
+  .menu-item-status {
+    font-size: 10px;
+    padding: 3px 7px;
+    border-radius: 10px;
+  }
+  .menu-item-description {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .menu-item-breakdown {
+    font-size: 10px;
+    line-height: 1.7;
+    margin-top: 10px;
+  }
+  .menu-item-demo {
+    font-size: 10px;
+    margin-top: 20px;
+  }
+}
+
+.body-contents {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  color: white;
+}
+
+.body-contents-img-wrapper {
+  position: absolute;
+}
+
+.body-contents-img {
+  width: 99.4vw;
+  object-fit: cover;
+}
+
+.body-menu .menu-item:last-child {
+  margin-right: 0;
+}
+
+.body-header {
+  text-align: left;
+  z-index: 2;
+}
+
+.body-title {
+  font-family: "Work Sans";
+  font-weight: 800;
+  color: inherit;
+  text-align: left;
+}
+
+.menu-item {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+
+.menu-item-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu-item-title {
+  font-family: "Work Sans";
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.menu-item-role {
+  font-family: "Work Sans";
+  font-weight: 400;
+  text-align: right;
+}
+
+.menu-item-status {
+  font-family: "Work Sans";
+  font-weight: bold;
+  text-align: left;
+  border-radius: 12px;
+  color: white;
+}
+
+.menu-item-description {
+  font-family: "Work Sans";
+  font-weight: 400;
+}
+
+.menu-item-breakdown {
+  font-family: "Work Sans";
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.menu-item-demo {
+  font-weight: 600;
+  font-family: "Work Sans";
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.menu-item-demo:hover {
+  font-weight: 900;
+  transition: 0s;
+}
+
+.body-menu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  color: black;
+}

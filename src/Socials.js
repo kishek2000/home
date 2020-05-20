@@ -10,19 +10,14 @@ function SocialsImg({ imgAlt, link, src }) {
   );
 }
 
-export function Socials({ gitImg, facebookImg, soundcloudImg, gmailImg }) {
+export function Socials({ gitImg, soundcloudImg, gmailImg }) {
   return (
     <div className="socials">
-      <div className="socials-row">
+      <div className="socials-col">
         <SocialsImg
           imgAlt="git"
           link="https://github.com/kishek2000/"
           src={gitImg}
-        />
-        <SocialsImg
-          imgAlt="soundcloud"
-          link="https://soundcloud.com/adi-kishore"
-          src={soundcloudImg}
         />
         <SocialsImg
           imgAlt="gmail"
@@ -30,9 +25,9 @@ export function Socials({ gitImg, facebookImg, soundcloudImg, gmailImg }) {
           src={gmailImg}
         />
         <SocialsImg
-          imgAlt="facebook"
-          link="https://facebook.com/kishek2000"
-          src={facebookImg}
+          imgAlt="soundcloud"
+          link="https://soundcloud.com/adi-kishore"
+          src={soundcloudImg}
         />
       </div>
     </div>

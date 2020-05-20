@@ -24,10 +24,16 @@ import aboutBg from "../static/about.jpeg";
 import contentsBg from "../static/project.jpeg";
 import qualificationsBg from "../static/qualifications.jpeg";
 
+import soundcloudIcon from "../static/soundcloudImg.png";
+import gmailIcon from "../static/gmailImg.png";
+
 export const aboutImg = aboutBg;
 export const contentsImg = contentsBg;
 export const qualificationsImg = qualificationsBg;
 export const gitImg = gitIcon;
+
+export const soundcloudImg = soundcloudIcon;
+export const gmailImg = gmailIcon;
 
 export const productionSkills = [
   {
