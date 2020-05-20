@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.d7710b17.chunk.css",
-    "main.js": "/home/static/js/main.2a25b087.chunk.js",
-    "main.js.map": "/home/static/js/main.2a25b087.chunk.js.map",
+    "main.css": "/home/static/css/main.01425579.chunk.css",
+    "main.js": "/home/static/js/main.78958344.chunk.js",
+    "main.js.map": "/home/static/js/main.78958344.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.27f4a010.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.27f4a010.js.map",
-    "static/js/2.c60c50a0.chunk.js": "/home/static/js/2.c60c50a0.chunk.js",
-    "static/js/2.c60c50a0.chunk.js.map": "/home/static/js/2.c60c50a0.chunk.js.map",
+    "static/js/2.4f161dca.chunk.js": "/home/static/js/2.4f161dca.chunk.js",
+    "static/js/2.4f161dca.chunk.js.map": "/home/static/js/2.4f161dca.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.f2f56b43f5a377a0dec27ad9d5e120a8.js": "/home/precache-manifest.f2f56b43f5a377a0dec27ad9d5e120a8.js",
+    "precache-manifest.6843f5cbe20980ed65979060135b7f06.js": "/home/precache-manifest.6843f5cbe20980ed65979060135b7f06.js",
     "service-worker.js": "/home/service-worker.js",
-    "static/css/main.d7710b17.chunk.css.map": "/home/static/css/main.d7710b17.chunk.css.map",
-    "static/js/2.c60c50a0.chunk.js.LICENSE.txt": "/home/static/js/2.c60c50a0.chunk.js.LICENSE.txt",
+    "static/css/main.01425579.chunk.css.map": "/home/static/css/main.01425579.chunk.css.map",
+    "static/js/2.4f161dca.chunk.js.LICENSE.txt": "/home/static/js/2.4f161dca.chunk.js.LICENSE.txt",
     "static/media/about.jpeg": "/home/static/media/about.c17f5f90.jpeg",
     "static/media/cImg.png": "/home/static/media/cImg.acd90b1f.png",
     "static/media/cssImg.png": "/home/static/media/cssImg.1f401233.png",
     "static/media/djangoImg.png": "/home/static/media/djangoImg.4829eb61.png",
     "static/media/expressImg.png": "/home/static/media/expressImg.98ff4822.png",
-    "static/media/facebookImg.png": "/home/static/media/facebookImg.70b5c683.png",
     "static/media/figmaImg.png": "/home/static/media/figmaImg.f7144ffe.png",
     "static/media/finalcutImg.png": "/home/static/media/finalcutImg.4b9f082a.png",
     "static/media/flaskImg.png": "/home/static/media/flaskImg.b754e3f3.png",
@@ -36,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.27f4a010.js",
-    "static/js/2.c60c50a0.chunk.js",
-    "static/css/main.d7710b17.chunk.css",
-    "static/js/main.2a25b087.chunk.js"
+    "static/js/2.4f161dca.chunk.js",
+    "static/css/main.01425579.chunk.css",
+    "static/js/main.78958344.chunk.js"
   ]
 }
