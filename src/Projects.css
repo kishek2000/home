@@ -27,10 +27,12 @@
     padding: 0px 10px 0px 0px;
     font-size: 20px;
   }
+
   .menu-item-role {
     font-size: 12px;
-    width: 300px;
+    width: 2000px;
   }
+
   .menu-item-status {
     font-size: 12px;
     padding: 3px 7px;
@@ -83,7 +85,6 @@
   }
   .menu-item-role {
     font-size: 10px;
-    width: 300px;
   }
   .menu-item-status {
     font-size: 12px;
@@ -134,7 +135,6 @@
 
   .menu-item-role {
     font-size: 8px;
-    width: 300px;
   }
   .menu-item-status {
     font-size: 10px;
@@ -214,6 +214,7 @@
   font-family: "Work Sans";
   font-weight: 400;
   text-align: right;
+  justify-self: flex-end;
 }
 
 .menu-item-status {
