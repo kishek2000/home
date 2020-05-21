@@ -13,10 +13,10 @@ export function Qualifications({ data }) {
       <div className="body-header">
         <div className="body-title">QUALIFICATIONS</div>
         <div className="description-text">
-          he last few years, I've pursued a path of learning and software
-          technologies.Today, these are the range of technologies I have{" "}
-          <strong>learned and implemented</strong>.I am keen to{" "}
-          <strong>continue deepening my skills</strong> in each of these, and{" "}
+          Over the last few years, I've looked to engage myself in a wide range
+          of skills and software technologies, and today, these are the range of
+          technologies I have <strong>learned and implemented</strong>. I am
+          keen to <strong>continue deepening my skills</strong> and{" "}
           <strong>learning new technologies</strong> for future solutions!
         </div>
       </div>
