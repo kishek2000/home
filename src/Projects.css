@@ -116,42 +116,47 @@
   }
 
   .body-menu {
-    margin-left: 175px;
-    height: 500px;
-    width: 500px;
+    margin-left: 150px;
+    height: 575px;
+    width: 550px;
+  }
+
+  .kishek {
+    font-size: 14px;
+    height: 45px;
   }
 
   .menu-item {
     border-radius: 10px;
     width: 450px;
-    padding: 17.5px 35px;
+    padding: 20px 37px;
   }
 
   .menu-item-title {
     margin-right: 15px;
     padding: 0px 10px 0px 0px;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .menu-item-role {
-    font-size: 8px;
+    font-size: 10px;
   }
   .menu-item-status {
-    font-size: 10px;
+    font-size: 12px;
     padding: 3px 7px;
     border-radius: 10px;
   }
   .menu-item-description {
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 10px;
   }
   .menu-item-breakdown {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 1.7;
     margin-top: 10px;
   }
   .menu-item-demo {
-    font-size: 10px;
+    font-size: 12px;
     margin-top: 20px;
   }
 }
