@@ -167,10 +167,6 @@
     width: 850px;
     font-size: 20px;
   }
-
-  .body-qualifications-img {
-    height: 60vh;
-  }
 }
 
 @media screen and (max-width: 1920px) {
@@ -227,6 +223,68 @@
     line-height: 2em;
     width: 800px;
     font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  * {
+    transition: 0s;
+  }
+
+  .body-header,
+  .body-about-description {
+    margin-left: 100px !important;
+  }
+
+  .body-qualifications-row {
+    margin-left: 100px;
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+  }
+
+  .body-qualifications-main-title {
+    line-height: 1.5em;
+    font-size: 10px;
+  }
+
+  .body-qualifications-item {
+    margin-right: 10px;
+    border-radius: 12px;
+    padding: 10px 25px;
+  }
+
+  .body-qualifications-proficiency-langs {
+    margin-top: 3.5px;
+  }
+
+  .body-qualifications-lang-img {
+    height: 17.5px;
+    width: 17.5px;
+    margin-right: 5px;
+  }
+
+  .body-qualifications-proficiency-item {
+    height: 25px;
+    margin-right: 12.5px;
+    border-radius: 10px;
+    padding: 1px 4px 1px 0px;
+  }
+
+  .body-qualifications-lang-title {
+    font-size: 9px;
+    line-height: 1.4em;
+  }
+
+  .body-title {
+    font-size: 20px;
+  }
+
+  .description-text {
+    margin-top: 15px;
+    line-height: 2em;
+    width: 600px;
+    font-size: 12px;
   }
 }
 

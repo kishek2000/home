@@ -66,6 +66,32 @@
   * {
     transition: 0s;
   }
+
+  .socials-col {
+    padding: 10px 4px;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .socials-img-wrapper {
+    width: 27.5px;
+    height: 27.5px;
+  }
+
+  .socials-img {
+    width: 17.5px;
+    height: 17.5px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-top: 1px;
+    padding: 1px;
+    box-shadow: 1px 1px 8px rgb(198, 198, 198);
+  }
+
+  .socials-img:hover {
+    width: 22.5px;
+    margin-top: 0px;
+    height: 22.5px;
+  }
 }
 
 .socials-col {
