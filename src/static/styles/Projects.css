@@ -1,108 +1,93 @@
-@media only screen and (max-width: 2560px) {
+@media screen and (max-width: 1280px) {
   * {
     transition: 0s;
   }
 
-  .body-contents-img {
-    height: 70vh;
-  }
-  .body-header {
-    margin-left: 175px;
-  }
-
   .body-menu {
-    margin-left: 175px;
-    height: 700px;
-    width: 600px;
+    margin-left: 100px;
+    height: 400px;
   }
 
   .menu-item {
-    border-radius: 12px;
-    width: 600px;
-    padding: 35px 50px;
+    border-radius: 10px;
+    width: 400px;
+    padding: 15px 25px;
   }
 
   .menu-item-title {
     margin-right: 15px;
     padding: 0px 10px 0px 0px;
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .menu-item-role {
-    font-size: 12px;
-    width: 2000px;
+    font-size: 8px;
   }
-
   .menu-item-status {
-    font-size: 12px;
-    padding: 3px 7px;
-    border-radius: 12px;
+    font-size: 8px;
+    padding: 2px 5px;
+    border-radius: 10px;
   }
   .menu-item-description {
-    font-size: 14px;
+    font-size: 8px;
     margin-top: 10px;
   }
   .menu-item-breakdown {
-    font-size: 14px;
-    line-height: 1.7;
-    margin-top: 10px;
+    font-size: 9px;
+    line-height: 1.5;
+    margin-top: 8px;
   }
   .menu-item-demo {
-    font-size: 14px;
-    margin-top: 20px;
-    transition: 0s;
+    font-size: 9px;
+    margin-top: 12.5px;
   }
 }
 
-@media screen and (max-width: 2100px) {
+@media screen and (min-width: 1280px) {
   * {
     transition: 0s;
   }
 
   .body-menu {
-    margin-left: 175px;
-    height: 600px;
-    width: 500px;
+    margin-left: 100px;
+    height: 400px;
   }
 
   .menu-item {
     border-radius: 10px;
-    width: 500px;
-    padding: 25px 40px;
-  }
-  .body-header {
-    margin-left: 175px;
+    width: 400px;
+    padding: 15px 25px;
   }
 
   .menu-item-title {
-    margin-right: 17.5px;
+    margin-right: 15px;
     padding: 0px 10px 0px 0px;
-    font-size: 18px;
+    font-size: 12px;
   }
+
   .menu-item-role {
-    font-size: 10px;
+    font-size: 8px;
   }
   .menu-item-status {
-    font-size: 12px;
-    padding: 3px 7px;
-    border-radius: 12px;
+    font-size: 8px;
+    padding: 2px 5px;
+    border-radius: 10px;
   }
   .menu-item-description {
-    font-size: 12px;
+    font-size: 8px;
     margin-top: 10px;
   }
   .menu-item-breakdown {
-    font-size: 12px;
-    line-height: 1.7;
-    margin-top: 10px;
+    font-size: 9px;
+    line-height: 1.5;
+    margin-top: 8px;
   }
   .menu-item-demo {
-    font-size: 12px;
-    margin-top: 17px;
+    font-size: 9px;
+    margin-top: 12.5px;
   }
 }
-
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 1920px) {
   * {
     transition: 0s;
   }
@@ -114,12 +99,6 @@
   .body-menu {
     margin-left: 150px;
     height: 575px;
-    width: 550px;
-  }
-
-  .kishek {
-    font-size: 14px;
-    height: 45px;
   }
 
   .menu-item {
@@ -157,49 +136,102 @@
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 2100px) {
   * {
     transition: 0s;
   }
 
   .body-menu {
-    margin-left: 100px;
-    height: 400px;
-    width: 360px;
+    margin-left: 175px;
+    height: 600px;
   }
 
   .menu-item {
     border-radius: 10px;
-    width: 100%;
-    padding: 15px 25px;
+    width: 500px;
+    padding: 25px 40px;
+  }
+
+  .body-header {
+    margin-left: 175px;
+  }
+
+  .menu-item-title {
+    margin-right: 17.5px;
+    padding: 0px 10px 0px 0px;
+    font-size: 18px;
+  }
+  .menu-item-role {
+    font-size: 10px;
+  }
+  .menu-item-status {
+    font-size: 12px;
+    padding: 3px 7px;
+    border-radius: 12px;
+  }
+  .menu-item-description {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .menu-item-breakdown {
+    font-size: 12px;
+    line-height: 1.7;
+    margin-top: 10px;
+  }
+  .menu-item-demo {
+    font-size: 12px;
+    margin-top: 17px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  * {
+    transition: 0s;
+  }
+
+  .body-header {
+    margin-left: 175px;
+  }
+
+  .body-menu {
+    margin-left: 175px;
+    height: 700px;
+  }
+
+  .menu-item {
+    border-radius: 12px;
+    width: 600px;
+    padding: 35px 50px;
   }
 
   .menu-item-title {
     margin-right: 15px;
     padding: 0px 10px 0px 0px;
-    font-size: 12px;
+    font-size: 20px;
   }
 
   .menu-item-role {
-    font-size: 8px;
+    font-size: 12px;
   }
+
   .menu-item-status {
-    font-size: 8px;
-    padding: 2px 5px;
-    border-radius: 10px;
+    font-size: 12px;
+    padding: 3px 7px;
+    border-radius: 12px;
   }
   .menu-item-description {
-    font-size: 8px;
+    font-size: 14px;
     margin-top: 10px;
   }
   .menu-item-breakdown {
-    font-size: 9px;
-    line-height: 1.5;
-    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: 10px;
   }
   .menu-item-demo {
-    font-size: 9px;
-    margin-top: 12.5px;
+    font-size: 14px;
+    margin-top: 20px;
+    transition: 0s;
   }
 }
 
@@ -219,6 +251,7 @@
 .body-contents-img {
   width: 99.4vw;
   object-fit: cover;
+  height: 70vh;
 }
 
 .body-menu .menu-item:last-child {
@@ -261,6 +294,7 @@
   font-family: "Work Sans";
   font-weight: 400;
   text-align: right;
+  width: 2000px;
   justify-self: flex-end;
 }
 
@@ -298,7 +332,6 @@
 .body-menu {
   position: relative;
   display: flex;
-  align-items: center;
   flex-direction: column;
   justify-content: space-between;
   color: black;

@@ -1,31 +1,32 @@
-import reactIcon from "../static/reactImg.png";
-import jsIcon from "../static/jsImg.png";
-import htmlIcon from "../static/htmlImg.png";
-import cssIcon from "../static/cssImg.png";
+import reactIcon from "../static/images/reactImg.png";
+import jsIcon from "../static/images/jsImg.png";
+import htmlIcon from "../static/images/htmlImg.png";
+import cssIcon from "../static/images/cssImg.png";
 
-import cIcon from "../static/cImg.png";
-import pythonIcon from "../static/pythonImg.png";
-import gitlabIcon from "../static/gitlabImg.png";
+import cIcon from "../static/images/cImg.png";
+import pythonIcon from "../static/images/pythonImg.png";
+import gitlabIcon from "../static/images/gitlabImg.png";
 
-import finalcutIcon from "../static/finalcutImg.png";
-import auditionIcon from "../static/auditionImg.png";
-import logicIcon from "../static/logicImg.png";
+import finalcutIcon from "../static/images/finalcutImg.png";
+import auditionIcon from "../static/images/auditionImg.png";
+import logicIcon from "../static/images/logicImg.png";
+import blenderIcon from "../static/images/blenderpng.png";
 
-import figmaIcon from "../static/figmaImg.png";
-import sketchIcon from "../static/sketchImg.png";
+import figmaIcon from "../static/images/figmaImg.png";
+import sketchIcon from "../static/images/sketchImg.png";
 
-import nodeIcon from "../static/nodeImg.png";
-import expressIcon from "../static/expressImg.png";
-import flaskIcon from "../static/flaskImg.png";
-import djangoIcon from "../static/djangoImg.png";
-import gitIcon from "../static/gitImg.png";
+import nodeIcon from "../static/images/nodeImg.png";
+import expressIcon from "../static/images/expressImg.png";
+import flaskIcon from "../static/images/flaskImg.png";
+import djangoIcon from "../static/images/djangoImg.png";
+import gitIcon from "../static/images/gitImg.png";
 
-import aboutBg from "../static/about.jpeg";
-import contentsBg from "../static/project.jpeg";
-import qualificationsBg from "../static/qualifications.jpeg";
+import aboutBg from "../static/images/about.jpeg";
+import contentsBg from "../static/images/project.jpeg";
+import qualificationsBg from "../static/images/qualifications.jpeg";
 
-import soundcloudIcon from "../static/soundcloudImg.png";
-import gmailIcon from "../static/gmailImg.png";
+import soundcloudIcon from "../static/images/soundcloudImg.png";
+import gmailIcon from "../static/images/gmailImg.png";
 
 export const aboutImg = aboutBg;
 export const contentsImg = contentsBg;
@@ -49,6 +50,10 @@ export const productionSkills = [
       {
         title: "Adobe Audition",
         imgSrc: auditionIcon,
+      },
+      {
+        title: "Blender",
+        imgSrc: blenderIcon,
       },
     ],
   },

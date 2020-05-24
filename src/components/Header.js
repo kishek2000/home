@@ -1,5 +1,5 @@
 import React from "react";
-import { HandleMenuClick } from "./HandleMenuClick";
+import { HandleMenuClick } from "../HandleMenuClick";
 import { Menu } from "./Menu";
 export function Header() {
   return (

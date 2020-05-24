@@ -8,7 +8,7 @@ export function About({ data }) {
       <div className="body-about-description">
         <div className="body-title">ABOUT</div>
         <div className="description-text">
-          Hey There! My name is Adi Kishore and I'm currently a student studying
+          Hey there! My name is Adi Kishore and I'm currently a student studying
           Software Engineering at UNSW. I'm a very passionate developer who is
           extremely keen to jump in any problem space and develop some cool
           solutions! I'm still in the exciting beginnings of my journey but

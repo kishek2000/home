@@ -1,12 +1,12 @@
 import React from "react";
-import "./App.css";
+import "../static/styles/App.css";
 import { Socials } from "./Socials";
 
-import * as data from "./store";
+import * as data from "../store";
 
 import { Qualifications } from "./Qualifications";
 import { Projects } from "./Projects";
-import { About } from "./About";
+import { About } from "../About";
 import { Header } from "./Header";
 
 function App() {
