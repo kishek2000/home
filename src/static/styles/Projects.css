@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1080px) {
   .body-menu {
-    height: 300px;
+    height: 375px;
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -15,7 +15,7 @@
   .menu-item {
     border-radius: 12px;
     width: 300px;
-    padding: 10px 15px;
+    padding: 15px 20px;
   }
 
   .menu-item-title {
@@ -25,30 +25,33 @@
   }
 
   .menu-item-role {
-    font-size: 5px;
+    font-size: 6.5px;
   }
 
   .menu-item-status {
-    font-size: 5px;
+    font-size: 6.5px;
     padding: 2px 5px;
     border-radius: 12px;
   }
   .menu-item-description {
-    font-size: 7px;
+    font-size: 8.5px;
     margin-top: 10px;
   }
   .menu-item-breakdown {
-    font-size: 7px;
+    font-size: 8.5px;
     line-height: 1.7;
     margin-top: 10px;
   }
   .menu-item-demo {
-    font-size: 7px;
+    font-size: 8.5px;
     margin-top: 10px;
     transition: 0s;
   }
 }
 @media only screen and (min-width: 1080px) {
+  .menu-item-demo:hover {
+    font-weight: 900;
+  }
   .body-contents,
   .body-qualifications {
     align-items: center;
@@ -296,11 +299,6 @@
   font-family: "Work Sans";
   text-transform: uppercase;
   cursor: pointer;
-}
-
-.menu-item-demo:hover {
-  font-weight: 900;
-  transition: 0s;
 }
 
 .body-menu {
