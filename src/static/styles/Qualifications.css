@@ -1,8 +1,4 @@
 @media only screen and (max-width: 1080px) {
-  .body-qualifications {
-    width: 100%;
-  }
-
   .body-img-wrapper {
     position: absolute;
     margin: 0;
@@ -73,11 +69,14 @@
   }
 
   .body-img {
-    height: 70vh;
+    height: 85vh;
     width: 100%;
   }
 }
 @media only screen and (min-width: 1080px) {
+  .body-about {
+    height: 100vh;
+  }
   .body-qualifications {
     margin: 0;
     padding: 0;
