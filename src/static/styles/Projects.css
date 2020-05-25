@@ -1,4 +1,54 @@
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 400px) {
+  .body-menu {
+    height: 325px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .body-contents,
+  .body-qualifications {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .menu-item {
+    border-radius: 12px;
+    width: 250px;
+    padding: 12.5px 17.5px;
+  }
+
+  .menu-item-title {
+    margin-right: 15px;
+    padding: 0px 10px 0px 0px;
+    font-size: 10px;
+  }
+
+  .menu-item-role {
+    font-size: 5.5px;
+  }
+
+  .menu-item-status {
+    font-size: 5.5px;
+    padding: 2px 5px;
+    border-radius: 12px;
+  }
+  .menu-item-description {
+    font-size: 7px;
+    margin-top: 10px;
+  }
+  .menu-item-breakdown {
+    font-size: 7px;
+    line-height: 1.7;
+    margin-top: 10px;
+  }
+  .menu-item-demo {
+    font-size: 7px;
+    margin-top: 10px;
+    transition: 0s;
+  }
+}
+@media only screen and (min-width: 400px) {
   .body-menu {
     height: 375px;
     margin-left: 5%;

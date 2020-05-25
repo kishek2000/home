@@ -1,4 +1,80 @@
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 400px) {
+  .body-img-wrapper {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .body-qualifications-row {
+    border-radius: 12px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .body-header {
+    margin-bottom: 7.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .body-about-description {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .body-qualifications-main-title {
+    line-height: 2em;
+    font-size: 9px;
+  }
+
+  .body-qualifications-item {
+    border-radius: 12px;
+    padding: 7.5px 12.5px;
+    margin-top: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  .body-qualifications-proficiency-langs {
+    margin-top: 1px;
+  }
+
+  .body-qualifications-lang-img {
+    height: 13px;
+    width: 13px;
+    margin-right: 3.5px;
+  }
+
+  .body-qualifications-proficiency-item {
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 12px;
+    margin-top: 5px;
+    padding: 2px 4.5px 2px 0px;
+  }
+
+  .body-qualifications-lang-title {
+    font-size: 7px;
+    white-space: nowrap;
+    line-height: 2em;
+    text-transform: uppercase;
+  }
+
+  .body-title {
+    font-size: 20px;
+  }
+
+  .description-text {
+    margin-top: 15px;
+    line-height: 2em;
+    font-size: 10px;
+  }
+
+  .body-img {
+    height: 85vh;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 400px) {
   .body-img-wrapper {
     position: absolute;
     margin: 0;
