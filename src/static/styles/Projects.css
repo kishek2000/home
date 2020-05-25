@@ -61,36 +61,36 @@
 
   .menu-item {
     border-radius: 12px;
-    width: 300px;
+    width: 375px;
     padding: 24.5px 35px;
   }
 
   .menu-item-title {
     margin-right: 15px;
     padding: 0px 10px 0px 0px;
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .menu-item-role {
-    font-size: 7px;
+    font-size: 9px;
   }
 
   .menu-item-status {
-    font-size: 7px;
+    font-size: 9px;
     padding: 3px 7px;
     border-radius: 12px;
   }
   .menu-item-description {
-    font-size: 8.5px;
+    font-size: 10px;
     margin-top: 10px;
   }
   .menu-item-breakdown {
-    font-size: 8.5px;
+    font-size: 10px;
     line-height: 1.7;
     margin-top: 10px;
   }
   .menu-item-demo {
-    font-size: 8.5px;
+    font-size: 10px;
     margin-top: 20px;
     transition: 0s;
   }
@@ -110,15 +110,15 @@
   .menu-item-title {
     margin-right: 15px;
     padding: 0px 10px 0px 0px;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .menu-item-role {
-    font-size: 9px;
+    font-size: 9.5px;
   }
 
   .menu-item-status {
-    font-size: 9px;
+    font-size: 9.5px;
     padding: 3px 7px;
     border-radius: 12px;
   }
