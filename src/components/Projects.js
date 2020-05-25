@@ -3,19 +3,15 @@ import { MenuItem } from "./MenuItem";
 export function Projects({ data }) {
   return (
     <div className="body-contents">
-      <div className="body-contents-img-wrapper">
-        <img
-          src={data.contentsImg}
-          alt="contents Img"
-          className="body-contents-img"
-        />
+      <div className="body-img-wrapper">
+        <img src={data.contentsImg} alt="contents Img" className="body-img" />
       </div>
       <div className="body-header">
         <div className="body-title">PROJECTS</div>
         <div className="description-text">
-          From the beginning of 2020, I have pursued my deep interest for
-          working on projects that solve real problems in a{" "}
-          <strong>meaningful</strong> and <strong>helpful</strong> way.
+          From the beginning of 2020, I have passionately pursued projects that
+          look solve real problems and <strong>positively impact </strong>the
+          community, or help ease our lives.
         </div>
       </div>
       <div className="body-menu">
@@ -25,7 +21,7 @@ export function Projects({ data }) {
           status="OPTIMISING"
           color="rgb(240, 170, 57)"
           description="Find where to stream Movies, Shows and Music."
-          breakdown="myLounge is a digital lounge that allows users to browse multiple entertainment options. You can filter and/or search TV Shows, Movies, Podcasts and Music, and immediately find a list of streaming services for a chosen media option!"
+          breakdown="myLounge is a digital lounge that allows users to browse, filter and/or search TV Shows, Movies, Podcasts and Music, and immediately find a list of streaming services for a chosen media option!"
           demo="Video Demo"
           role="Frontend Lead, Full Stack Developer"
         />
@@ -35,7 +31,7 @@ export function Projects({ data }) {
           status="OPTIMISING"
           color="rgb(240, 170, 57)"
           description="Children's education made fun and engaging."
-          breakdown="Discovery is a platform that makes children's education fun and engaging. It aims to target a large age range of audience, and is a free learning space that covers interesting areas of content about the world!"
+          breakdown="Discovery is a platform that makes children's education fun and engaging. It aims to target a large age range, and is a free learning space that covers interesting areas of content about the world!"
           demo="Live Demo"
           role="Project Lead"
         />

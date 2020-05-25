@@ -3,21 +3,21 @@ import { QualificationItem } from "./QualificationItem";
 export function Qualifications({ data }) {
   return (
     <div className="body-qualifications">
-      <div className="body-qualifications-img-wrapper">
+      <div className="body-img-wrapper">
         <img
           src={data.qualificationsImg}
           alt="qualifications Img"
-          className="body-qualifications-img"
+          className="body-img"
         />
       </div>
       <div className="body-header">
         <div className="body-title">QUALIFICATIONS</div>
         <div className="description-text">
-          Over the last few years, I've looked to engage myself in a wide range
-          of skills and software technologies, and today, these are the range of
-          technologies I have <strong>learned and implemented</strong>. I am
-          keen to <strong>continue deepening my skills</strong> and{" "}
-          <strong>learning new technologies</strong> for future solutions!
+          Over the last few years, I've engaged in a wide range of technologies,
+          and today, these are the range of skills I have{" "}
+          <strong>learned and implemented</strong>. I am keen to{" "}
+          <strong>continue deepening my skills</strong> and{" "}
+          <strong>learning new technologies</strong>!
         </div>
       </div>
       <div className="body-qualifications-row">

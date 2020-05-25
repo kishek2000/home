@@ -22,7 +22,7 @@ import djangoIcon from "../static/images/djangoImg.png";
 import gitIcon from "../static/images/gitImg.png";
 
 import aboutBg from "../static/images/about.jpeg";
-import contentsBg from "../static/images/project.jpeg";
+import contentsBg from "../static/images/project.jpg";
 import qualificationsBg from "../static/images/qualifications.jpeg";
 
 import soundcloudIcon from "../static/images/soundcloudImg.png";

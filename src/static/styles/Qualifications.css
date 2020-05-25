@@ -1,151 +1,42 @@
-@media screen and (max-width: 1280px) {
-  * {
-    transition: 0s;
+@media only screen and (min-width: 1080px) {
+  .body-qualifications {
+    margin: 0;
+    padding: 0;
   }
 
-  .body-header,
-  .body-about-description {
-    margin-left: 100px;
+  .body-img-wrapper {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 
   .body-qualifications-row {
-    margin-left: 100px;
-    height: 400px;
+    margin-left: 7.5%;
+    border-radius: 12px;
     width: 500px;
-    border-radius: 10px;
+  }
+
+  .body-header {
+    margin-left: 7.5%;
+    width: 400px;
+  }
+
+  .body-about-description {
+    margin-left: 7.5%;
+    width: 60%;
   }
 
   .body-qualifications-main-title {
-    line-height: 1.5em;
+    line-height: 2em;
     font-size: 10px;
   }
 
   .body-qualifications-item {
-    margin-right: 10px;
     border-radius: 12px;
-    padding: 10px 25px;
-  }
-
-  .body-qualifications-proficiency-langs {
-    margin-top: 3.5px;
-  }
-
-  .body-qualifications-lang-img {
-    height: 17.5px;
-    width: 17.5px;
-    margin-right: 5px;
-  }
-
-  .body-qualifications-proficiency-item {
-    height: 25px;
-    margin-right: 12.5px;
-    border-radius: 10px;
-    padding: 1px 4px 1px 0px;
-  }
-
-  .body-qualifications-lang-title {
-    font-size: 9px;
-    line-height: 1.4em;
-  }
-
-  .body-title {
-    font-size: 20px;
-  }
-
-  .description-text {
-    margin-top: 15px;
-    line-height: 2em;
-    width: 600px;
-    font-size: 12px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  * {
-    transition: 0s;
-  }
-
-  .body-header,
-  .body-about-description {
-    margin-left: 100px;
-  }
-
-  .body-qualifications-row {
-    margin-left: 100px;
-    height: 400px;
-    width: 500px;
-    border-radius: 10px;
-  }
-
-  .body-qualifications-main-title {
-    line-height: 1.5em;
-    font-size: 10px;
-  }
-
-  .body-qualifications-item {
-    margin-right: 10px;
-    border-radius: 12px;
-    padding: 10px 25px;
-  }
-
-  .body-qualifications-proficiency-langs {
-    margin-top: 3.5px;
-  }
-
-  .body-qualifications-lang-img {
-    height: 17.5px;
-    width: 17.5px;
-    margin-right: 5px;
-  }
-
-  .body-qualifications-proficiency-item {
-    height: 25px;
-    margin-right: 12.5px;
-    border-radius: 10px;
-    padding: 1px 4px 1px 0px;
-  }
-
-  .body-qualifications-lang-title {
-    font-size: 9px;
-    line-height: 1.4em;
-  }
-
-  .body-title {
-    font-size: 20px;
-  }
-
-  .description-text {
-    margin-top: 15px;
-    line-height: 2em;
-    width: 600px;
-    font-size: 12px;
-  }
-}
-
-@media screen and (min-width: 1920px) {
-  * {
-    transition: 0s;
-  }
-
-  .body-qualifications-row {
-    margin-left: 175px;
-    height: 550px;
-    width: 700px;
-    border-radius: 10px;
-  }
-
-  .body-about-description {
-    margin-left: 175px;
-  }
-
-  .body-qualifications-main-title {
-    line-height: 1.8em;
-    font-size: 13px;
-  }
-
-  .body-qualifications-item {
-    margin-right: 10px;
-    border-radius: 12px;
-    padding: 15px 25px;
+    padding: 15px 30px;
+    margin-top: 2.5%;
+    margin-right: 2.5%;
   }
 
   .body-qualifications-proficiency-langs {
@@ -155,50 +46,60 @@
   .body-qualifications-lang-img {
     height: 20px;
     width: 20px;
-    margin-right: 5px;
+    margin-right: 10%;
   }
 
   .body-qualifications-proficiency-item {
-    height: 25px;
+    height: 20px;
     margin-right: 15px;
-    border-radius: 10px;
-    padding: 1px 8px 1px 0px;
+    border-radius: 12px;
+    padding: 2.5px 5px 2.5px 0px;
   }
 
   .body-qualifications-lang-title {
     font-size: 10px;
-    line-height: 1.6em;
+    white-space: nowrap;
+    line-height: 2em;
   }
 
   .body-title {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .description-text {
-    margin-top: 20px;
+    margin-top: 30px;
     line-height: 2em;
-    width: 800px;
-    font-size: 18px;
+    font-size: 14px;
+  }
+
+  .body-img {
+    height: 70vh;
+    width: 100%;
   }
 }
 
-@media screen and (min-width: 2100px) {
-  * {
-    transition: 0s;
+@media only screen and (min-width: 1280px) {
+  .body-header {
+    margin-left: 7.5%;
+    width: 550px;
   }
 
   .body-qualifications-row {
-    margin-left: 175px;
-    height: 640px;
-    width: 700px;
-    padding: 12px 0px;
-    border-radius: 10px;
+    margin-left: 7.5%;
+    border-radius: 12px;
+    width: 600px;
+  }
+
+  .body-qualifications-main-title {
+    line-height: 2em;
+    font-size: 11.25px;
   }
 
   .body-qualifications-item {
-    margin-right: 10px;
     border-radius: 12px;
-    padding: 17px 32px;
+    padding: 12.5px 27.5px;
+    margin-top: 2.5%;
+    margin-right: 2.5%;
   }
 
   .body-qualifications-proficiency-langs {
@@ -208,49 +109,119 @@
   .body-qualifications-lang-img {
     height: 20px;
     width: 20px;
-    margin-right: 5px;
+    margin-right: 10%;
   }
 
   .body-qualifications-proficiency-item {
-    height: 25px;
+    height: 20px;
     margin-right: 15px;
-    border-radius: 11px;
-    padding: 3px 12px 3px 0px;
+    border-radius: 12px;
+    padding: 5px 10px 5px 0px;
+  }
+
+  .body-qualifications-lang-title {
+    font-size: 11.25px;
+    white-space: nowrap;
+    line-height: 2em;
   }
 
   .body-title {
-    font-size: 32.5px;
+    font-size: 28px;
   }
 
   .description-text {
-    margin-top: 20px;
-    line-height: 2em;
-    width: 850px;
-    font-size: 20px;
-  }
-}
-
-@media screen and (min-width: 2450px) {
-  * {
-    transition: 0s;
-  }
-
-  .body-qualifications-row {
-    margin-left: 175px;
-    height: 750px;
-    width: 725px;
-    border-radius: 12px;
-  }
-
-  .body-qualifications-main-title {
+    margin-top: 30px;
     line-height: 2em;
     font-size: 16px;
   }
 
-  .body-qualifications-item {
-    margin-right: 12.5px;
+  .body-img {
+    height: 70vh;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .body-header {
+    margin-left: 7.5%;
+    width: 750px;
+  }
+
+  .body-qualifications-row {
+    margin-left: 7.5%;
     border-radius: 12px;
-    padding: 20px 35px;
+    width: 700px;
+  }
+
+  .body-qualifications-main-title {
+    line-height: 2em;
+    font-size: 14px;
+  }
+
+  .body-qualifications-item {
+    border-radius: 12px;
+    padding: 16px 30px;
+    margin-top: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  .body-qualifications-proficiency-langs {
+    margin-top: 5px;
+  }
+
+  .body-qualifications-lang-img {
+    height: 22.5px;
+    width: 22.5px;
+    margin-right: 10%;
+  }
+
+  .body-qualifications-proficiency-item {
+    height: 20px;
+    margin-right: 15px;
+    border-radius: 12px;
+    padding: 5px 10px 5px 0px;
+  }
+
+  .body-qualifications-lang-title {
+    font-size: 14px;
+    white-space: nowrap;
+    line-height: 2em;
+  }
+
+  .body-title {
+    font-size: 32px;
+  }
+
+  .description-text {
+    margin-top: 30px;
+    line-height: 2em;
+    font-size: 20px;
+  }
+
+  .body-img {
+    height: 70vh;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .body-qualifications-row {
+    margin-left: 7.5%;
+    border-radius: 12px;
+    width: 700px;
+  }
+
+  .body-header {
+    width: 900px;
+  }
+
+  .body-qualifications-main-title {
+    line-height: 2em;
+    font-size: 19px;
+  }
+
+  .body-qualifications-item {
+    border-radius: 12px;
+    padding: 25px 47.5px;
+    margin-top: 2.5%;
+    margin-right: 2.5%;
   }
 
   .body-qualifications-proficiency-langs {
@@ -260,76 +231,14 @@
   .body-qualifications-lang-img {
     height: 25px;
     width: 25px;
-    margin-right: 7.5px;
+    margin-right: 10%;
   }
 
   .body-qualifications-proficiency-item {
     height: 25px;
-    margin-right: 15px;
+    margin-right: 20px;
     border-radius: 12px;
-    padding: 5px 15px 5px 0px;
-  }
-
-  .body-qualifications-lang-title {
-    font-size: 13px;
-    line-height: 1.8em;
-  }
-
-  .body-title {
-    font-size: 35px;
-  }
-
-  .description-text {
-    margin-top: 20px;
-    line-height: 2em;
-    width: 1000px;
-    font-size: 22px;
-  }
-}
-
-@media only screen and (min-width: 2560px) {
-  * {
-    transition: 0s;
-  }
-
-  .body-qualifications-row {
-    margin-left: 175px;
-    height: 775px;
-    width: 750px;
-    border-radius: 12px;
-  }
-
-  .body-qualifications-main-title {
-    line-height: 2em;
-    font-size: 19px;
-  }
-  .body-qualifications-main-title {
-    font-family: "Work Sans";
-    text-transform: uppercase;
-    font-weight: 900;
-  }
-
-  .body-qualifications-item {
-    margin-right: 15px;
-    border-radius: 12px;
-    padding: 25px 50px;
-  }
-
-  .body-qualifications-proficiency-langs {
-    margin-top: 5px;
-  }
-
-  .body-qualifications-lang-img {
-    height: 30px;
-    width: 30px;
-    margin-right: 10px;
-  }
-
-  .body-qualifications-proficiency-item {
-    height: 25px;
-    margin-right: 15px;
-    border-radius: 12px;
-    padding: 5px 15px 5px 0px;
+    padding: 5px 10px 5px 0px;
   }
 
   .body-qualifications-lang-title {
@@ -345,15 +254,22 @@
   .description-text {
     margin-top: 30px;
     line-height: 2em;
-    width: 1200px;
     font-size: 24px;
+  }
+
+  .body-img {
+    height: 70vh;
+  }
+}
+
+@media only screen and (min-width: 2100px) {
+  .body-header {
+    width: 1000px;
+    transition: 0.3s;
   }
 }
 
 /* Default styles */
-.body-qualifications-img {
-  height: 70vh;
-}
 
 .body-qualifications {
   display: flex;
@@ -364,6 +280,12 @@
   color: white;
 }
 
+.body-qualifications-main-title {
+  font-family: "Work Sans";
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
 .body-qualifications-row {
   display: flex;
   flex-direction: row;
@@ -372,13 +294,8 @@
   z-index: 2;
 }
 
-.body-qualifications-img-wrapper {
-  position: absolute;
-}
-
-.body-qualifications-img {
+.body-img {
   object-fit: cover;
-  width: 99.4vw;
 }
 
 .body-qualifications-item {
@@ -387,7 +304,6 @@
   align-items: flex-start;
   color: black;
   background: white;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .body-qualifications-lang-img {
@@ -409,18 +325,25 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  background: rgb(255, 255, 255);
   color: black;
 }
 
 .body-qualifications-lang-title {
   font-family: "Work Sans";
   font-weight: 500;
-  text-transform: uppercase;
 }
 
 .body-qualifications-main-title {
   font-family: "Work Sans";
   text-transform: uppercase;
   font-weight: 900;
+}
+
+.body-qualifications-proficiency-langs
+  .body-qualifications-proficiency-item:last-child {
+  margin-right: 0;
+}
+
+.body-qualifications-row .body-qualifications-item:first-child {
+  margin-top: 0;
 }

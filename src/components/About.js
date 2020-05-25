@@ -2,8 +2,8 @@ import React from "react";
 export function About({ data }) {
   return (
     <div className="body-about">
-      <div className="body-about-img-wrapper">
-        <img src={data.aboutImg} className="body-about-img" alt="about" />
+      <div className="body-img-wrapper">
+        <img src={data.aboutImg} className="body-img" alt="about" />
       </div>
       <div className="body-about-description">
         <div className="body-title">ABOUT</div>

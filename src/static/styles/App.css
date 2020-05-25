@@ -25,16 +25,6 @@
   color: white;
 }
 
-.body-about-img-wrapper {
-  position: absolute;
-}
-
-.body-about-img {
-  height: 70vh;
-  width: 99.4vw;
-  object-fit: cover;
-}
-
 .body-about-description {
   margin-top: 20px;
   display: flex;

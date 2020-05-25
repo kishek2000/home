@@ -6,7 +6,7 @@ import * as data from "../store";
 
 import { Qualifications } from "./Qualifications";
 import { Projects } from "./Projects";
-import { About } from "../About";
+import { About } from "./About";
 import { Header } from "./Header";
 
 function App() {

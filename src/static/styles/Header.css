@@ -1,39 +1,41 @@
 /* Media Rules */
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 1080px) {
   .header-title {
     line-height: 0.6em;
-    font-size: 80px;
+    font-size: 75px;
+    transition: 0.2s;
   }
 
   .App-header-text {
-    margin-right: 100px;
+    margin-right: 10%;
+    transition: 0.2s;
   }
 
   .header-description-text {
-    margin-top: 30px;
-    margin-left: 10px;
-    font-size: 24px;
+    margin-top: 7.5%;
+    margin-left: 1.5%;
+    font-size: 21.875px;
+    transition: 0.2s;
+    white-space: nowrap;
   }
 
   .header-item {
-    padding: 15px 25px;
-    font-size: 10px;
-  }
-
-  .kishek {
-    font-size: 10px;
-    height: 30px;
+    padding: 12.5px 22.5px;
+    transition: 0.2s;
+    font-size: 16px;
   }
 
   .App-header-photo {
-    width: 360px;
-    height: 480px;
+    width: 330px;
+    transition: 0.2s;
+    height: 440px;
   }
 
   .header-item-row {
-    height: 30px;
-    padding-right: 15px;
+    height: 45px;
+    transition: 0.2s;
+    padding-right: 20px;
   }
 }
 
@@ -41,77 +43,42 @@
   .header-title {
     line-height: 0.6em;
     font-size: 80px;
+    transition: 0.2s;
   }
 
   .App-header-text {
-    margin-right: 100px;
+    margin-right: 10%;
+    transition: 0.2s;
   }
 
   .header-description-text {
-    margin-top: 30px;
-    margin-left: 10px;
+    margin-top: 7.5%;
+    margin-left: 1.5%;
     font-size: 24px;
+    transition: 0.2s;
+    white-space: nowrap;
   }
 
   .header-item {
-    padding: 15px 25px;
-    font-size: 10px;
-  }
-
-  .kishek {
-    font-size: 10px;
-    height: 30px;
+    padding: 12.5px 22.5px;
+    transition: 0.2s;
+    font-size: 16px;
   }
 
   .App-header-photo {
-    width: 360px;
-    height: 480px;
+    width: 405px;
+    transition: 0.2s;
+    height: 540px;
   }
 
   .header-item-row {
-    height: 30px;
-    padding-right: 15px;
+    height: 45px;
+    transition: 0.2s;
+    padding-right: 20px;
   }
 }
 
 @media only screen and (min-width: 1920px) {
-  .header-title {
-    line-height: 0.8em;
-    font-size: 120px;
-  }
-
-  .App-header-text {
-    margin-right: 150px;
-  }
-
-  .header-description-text {
-    margin-top: 50px;
-    margin-left: 10px;
-    font-size: 35px;
-  }
-
-  .header-item {
-    font-size: 14px;
-    padding: 15px 25px;
-  }
-
-  .App-header-photo {
-    width: 600px;
-    height: 800px;
-  }
-
-  .header-item-row {
-    height: 50px;
-    padding-right: 25px;
-  }
-
-  .kishek {
-    height: 50px;
-    font-size: 20px;
-  }
-}
-
-@media only screen and (min-width: 2560px) {
   * {
     transition: 0s;
   }
@@ -122,13 +89,14 @@
   }
 
   .App-header-text {
-    margin-right: 150px;
+    margin-right: 10%;
   }
 
   .header-description-text {
-    margin-top: 50px;
-    margin-left: 10px;
-    font-size: 40px;
+    margin-top: 7.5%;
+    margin-left: 1.5%;
+    font-size: 35px;
+    white-space: nowrap;
   }
 
   .header-item {
@@ -224,6 +192,7 @@
   align-items: center;
   top: 0px;
   left: 25px;
+  height: 40px;
   font-family: "Work Sans";
   font-weight: 900;
   z-index: 5;
