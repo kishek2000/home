@@ -1,7 +1,7 @@
 import React from "react";
 export function About({ data }) {
   return (
-    <div className="body-about">
+    <div className="body-about" id="about">
       <div className="body-img-wrapper">
         <img src={data.aboutImg} className="body-img" alt="about" />
       </div>

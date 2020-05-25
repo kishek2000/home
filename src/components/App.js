@@ -12,7 +12,7 @@ import { Header } from "./Header";
 function App() {
   return (
     <div className="App">
-      <section className="App-header">
+      <section className="App-header" id="header">
         <Header />
       </section>
       <section className="App-body">

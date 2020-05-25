@@ -4,16 +4,22 @@ export function Menu({ HandleMenuClick }) {
     <>
       <div className="kishek">kishek2000</div>
       <div className="header-item-row">
-        <div className="header-item" onClick={() => HandleMenuClick(0)}>
+        <div className="header-item" onClick={() => HandleMenuClick("header")}>
           HOME
         </div>
-        <div className="header-item" onClick={() => HandleMenuClick(1)}>
+        <div className="header-item" onClick={() => HandleMenuClick("about")}>
           ABOUT
         </div>
-        <div className="header-item" onClick={() => HandleMenuClick(2)}>
+        <div
+          className="header-item"
+          onClick={() => HandleMenuClick("projects")}
+        >
           PROJECTS
         </div>
-        <div className="header-item" onClick={() => HandleMenuClick(3)}>
+        <div
+          className="header-item"
+          onClick={() => HandleMenuClick("qualifications")}
+        >
           QUALIFICATIONS
         </div>
       </div>

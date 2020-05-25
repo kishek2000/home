@@ -2,7 +2,7 @@ import React from "react";
 import { MenuItem } from "./MenuItem";
 export function Projects({ data }) {
   return (
-    <div className="body-contents">
+    <div className="body-contents" id="projects">
       <div className="body-img-wrapper">
         <img src={data.contentsImg} alt="contents Img" className="body-img" />
       </div>

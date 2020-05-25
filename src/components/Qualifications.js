@@ -2,7 +2,7 @@ import React from "react";
 import { QualificationItem } from "./QualificationItem";
 export function Qualifications({ data }) {
   return (
-    <div className="body-qualifications">
+    <div className="body-qualifications" id="qualifications">
       <div className="body-img-wrapper">
         <img
           src={data.qualificationsImg}
