@@ -1,6 +1,55 @@
 /* Media Rules */
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 350px) {
+  .App-header {
+    flex-direction: column;
+  }
+
+  .kishek {
+    font-size: 8px;
+    height: 30px;
+  }
+
+  .header-title {
+    line-height: 0.6em;
+    font-size: 30px;
+    transition: 0.2s;
+  }
+
+  .App-header-text {
+    transition: 0.2s;
+    margin-top: 15%;
+  }
+
+  .header-description-text {
+    margin-top: 7.5%;
+    margin-left: 1.5%;
+    font-size: 12px;
+    transition: 0.2s;
+    white-space: nowrap;
+  }
+
+  .header-item {
+    padding: 5px 7.5px;
+    transition: 0.2s;
+    font-size: 8px;
+    font-weight: 500;
+  }
+
+  .App-header-photo {
+    width: 225px;
+    transition: 0.2s;
+    height: 300px;
+    margin-top: 30%;
+  }
+
+  .header-item-row {
+    height: 30px;
+    transition: 0.2s;
+    padding-right: 2px;
+  }
+}
+@media only screen and (min-width: 350px) {
   .App-header {
     flex-direction: column;
   }
