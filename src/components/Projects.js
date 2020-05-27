@@ -32,7 +32,7 @@ export function Projects({ data }) {
           color="rgb(240, 170, 57)"
           description="Children's education made fun and engaging."
           breakdown="Discovery is a platform that makes children's education fun and engaging. It aims to target a large age range, and is a free learning space that covers interesting areas of content about the world!"
-          demo="Live Demo (currently not for mobile)"
+          demo="Live Demo (including mobile and tablet)"
           role="Project Lead"
         />
         <MenuItem
