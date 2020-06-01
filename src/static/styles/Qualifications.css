@@ -252,6 +252,7 @@
   .body-header {
     margin-left: 7.5%;
     width: 400px;
+    margin-bottom: 0;
   }
 
   .body-about-description {
