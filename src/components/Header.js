@@ -1,6 +1,7 @@
 import React from "react";
 import { HandleMenuClick } from "../HandleMenuClick";
 import { Menu } from "./Menu";
+import displayPic from "../static/images/mainDisplay.jpg";
 import UseWindowDimensions from "./Dimensions";
 
 export function Header() {
@@ -8,11 +9,7 @@ export function Header() {
   return (
     <>
       {width < 1080 && (
-        <img
-          className="App-header-photo"
-          src="https://ik.imagekit.io/m3aqkfw4pj/IMG_2057_lpkgmrUuj.jpg"
-          alt="my dp"
-        />
+        <img className="App-header-photo" src={displayPic} alt="my dp" />
       )}
       <div className="App-header-text">
         <div className="header-title">Greetings.</div>
@@ -21,11 +18,7 @@ export function Header() {
         </div>
       </div>
       {width >= 1080 && (
-        <img
-          className="App-header-photo"
-          src="https://ik.imagekit.io/m3aqkfw4pj/IMG_2057_lpkgmrUuj.jpg"
-          alt="my dp"
-        />
+        <img className="App-header-photo" src={displayPic} alt="my dp" />
       )}
       <Menu HandleMenuClick={HandleMenuClick} />
     </>
