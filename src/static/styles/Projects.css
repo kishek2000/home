@@ -381,6 +381,7 @@
   text-align: left;
   border-radius: 12px;
   color: white;
+  white-space: nowrap;
 }
 
 .menu-item-description {
