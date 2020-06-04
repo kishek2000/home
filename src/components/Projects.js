@@ -38,12 +38,12 @@ export function Projects({ data }) {
         <MenuItem
           title="Sadafal Education"
           src=""
-          status="RESEARCHING"
+          status="DATA MODELLING"
           color="rgb(129, 110, 237)"
           description="Discover your path of learning, and shape your career."
           breakdown="Sadafal Education aims to be a global level education platform that guides users to discover their path of learning and shape their career! This is a platform for anyone looking to learn."
           demo="Coming Soon"
-          role="TBD"
+          role="Developer Team"
         />
       </div>
     </div>
